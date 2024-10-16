@@ -1,0 +1,16 @@
+    {{#if user}}
+    <header>
+      <h3 class="welcome-message">Welcome {{user}}</h3>
+    </header>
+    {{/if}}
+
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navlist">
+          <li class="navitem"><a href="/">Home</a></li>
+          <li class="navitem"><a href="/quotes">Quotes</a></li>
+          <li class="navitem"><a href="/races">Races</a></li>
+          <li class="navitem right"><a href="/login">{{#if user}}Logout{{else}}Login{{/if}}</a></li>
+        </ul>
+      </div>
+    </nav>

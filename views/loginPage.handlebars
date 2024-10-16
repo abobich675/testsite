@@ -1,0 +1,38 @@
+<main class="home-page">
+    <div class="title-container">
+        <h2>Login</h2>
+
+        <form action="/login" method="post">
+            <fieldset>
+
+            <table style="width: 100%">
+                  <tr style="max-width: 20%;">
+                        <td><label for="username" class="required">Username:</label></td>
+                        <td class="right-content"><input type="text" id="username" name="username" required autofocus></td>
+                  </tr>
+                  <tr class="error-message">
+                        <td>{{usernameError}}</td>
+                  </tr>
+                  <tr style="min-width: 80%;">
+                        <td><label for="password" class="required">Password:</label></td>
+                        <td class="right-content"><input type="password" id="password" name="password" required></td>
+                  </tr>
+                  <tr class="error-message">
+                        <td>{{passwordError}}</td>
+                  </tr>
+            </table>
+            <br>
+            <button type="submit">Submit</button>
+
+            
+            </fieldset>
+      </form>
+    {{!-- <div class="icon">
+          
+    </div>
+    <div class="icon">
+          <i class="fa fa-group"></i>
+    </div> --}}
+      </div>
+
+</main>

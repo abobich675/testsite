@@ -1,0 +1,58 @@
+{
+  "cats": {
+    "animal": "Cats",
+    "photos": [
+      {
+        "caption": "Orange Cat - Willy",
+        "url": "https://web.engr.oregonstate.edu/~coffmaju/cs290sp24/examples/imgs/willi1.jpg"
+      },
+      {
+        "caption": "Siblings - Willy & Vikki",
+        "url": "../images/williVicki.jpg"
+      }
+    ]
+  },
+  "dogs": {
+    "animal": "Dogs",
+    "photos": [
+      {
+        "caption": "Jumping Dog",
+        "url": "https://cdn.britannica.com/40/233240-050-38D84AE0/Toy-poodle-agility-trial.jpg"
+      },
+      {
+        "caption": "Running dog with stick",
+        "url": "https://cdn.britannica.com/92/212692-050-D53981F5/labradoodle-dog-stick-running-grass.jpg"
+      },
+      {
+        "caption": "Working Dog",
+        "url": "https://cdn.britannica.com/33/148433-004-D9DF871A/Labrador-retriever-guide-dog.jpg"
+      },
+      {
+        "caption": "Beach Dogs",
+        "url": "https://cdn.britannica.com/83/232783-004-E0021640/Yellow-Chocolate-Labrador-retriever-dogs-playing.jpg"
+      }
+    ]
+  },
+  "horses": {
+    "animal": "Horses",
+    "photos": [
+      {
+        "caption": "Working Horses",
+        "url": "https://cdn.britannica.com/22/1322-050-181230CA/team-plow-Clydesdales-draft-horse-demonstration.jpg"
+      }
+    ]
+  },
+  "goats": {
+    "animal": "Goats",
+    "photos": [
+      {
+        "caption": "Big Ears",
+        "url": "https://cdn.britannica.com/41/119041-004-AF28B438/goat.jpg"
+      },
+      {
+        "caption": "Big Horns",
+        "url": "https://cdn.britannica.com/28/528-050-E7D2ADE4/Cashmere-goat.jpg"
+      }
+    ]
+  }
+}

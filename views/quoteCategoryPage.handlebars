@@ -1,0 +1,49 @@
+<main>
+
+    <div class="title-container">
+        <h2>Quotes of {{category}}</h2>
+    </div>
+
+    <div class="quote-card-container">
+
+    {{#each quotes}}
+        {{>quoteCard}}
+    {{/each}}
+
+    </div>
+</main>
+
+<button type="button" id="add-quote-button"><i class="fa fa-id-card"></i></button>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="add-quote-modal" class="hidden">
+    <div class="modal-dialog">
+
+    <div class="modal-header">
+        <h3>Post a quote</h3>
+        <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+    </div>
+
+    <div class="modal-body">
+
+        <div class="quote-input-element">
+        <label for="quote-author-input">Author</label>
+        <input type="text" id="quote-author-input">
+        </div>
+
+        <div class="quote-input-element">
+        <label for="quote-text-input">Quote</label>
+        <input type="text" id="quote-text-input"></input>
+        </div>
+
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+        <button type="button" id="modal-accept" class="action-button">Create Post</button>
+    </div>
+
+    </div>
+</div>
+
+
