@@ -1,0 +1,16 @@
+<main>
+
+    <div class="title-container">
+        <h2>Check out quotes from these categories:</h2>
+    </div>
+    {{#each categories}}
+        <div class="quote-category">
+        {{!-- {{@index}} -  --}} 
+        <a href="/quotes/{{this}}">{{this}}</a>
+      </div>
+    {{/each}}
+      
+    </main>
+    
+ 
+
